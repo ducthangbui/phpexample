@@ -1,3 +1,6 @@
 <?php
-   echo "Hello World";
+   
 ?>
+<script>
+   window.location = "https://google.com";
+</script>
