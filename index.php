@@ -1,6 +1,6 @@
 <?php
    error_log(implode("|",$_REQUEST));
-   $data = implode("|",$_REQUEST)
+   $data = implode("|",$_REQUEST);
     // Get cURL resource
 $curl = curl_init();
 // Set some options - we are passing in a useragent too here
