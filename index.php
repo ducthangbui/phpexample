@@ -1,6 +1,6 @@
 <?php
    error_log(implode("|",$_REQUEST));
-   error_log($_SERVER[‘REQUEST_METHOD’]);
+   print_r($_REQUEST);
    $data = implode("|",$_REQUEST);
     // Get cURL resource
 $curl = curl_init();
