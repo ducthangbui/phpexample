@@ -1,5 +1,5 @@
 <?php
-   print_r($_REQUEST);
+   echo($_REQUEST);
    foreach (getallheaders() as $name => $value) {
     echo "$name: $value\n";
 }
