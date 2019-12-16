@@ -1,7 +1,7 @@
 <?php
    error_log(implode("|",$_REQUEST));
    print_r($_REQUEST);
-   $data = json_encode($arr);
+   $data = json_encode($_REQUEST);
     // Get cURL resource
 $curl = curl_init();
 // Set some options - we are passing in a useragent too here
