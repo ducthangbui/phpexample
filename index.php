@@ -1,7 +1,6 @@
 <?php
    error_log(implode("|",$_REQUEST));
-   foreach (getallheaders() as $name => $value) {
-    echo "$name: $value\n";
+   
     // Get cURL resource
 $curl = curl_init();
 // Set some options - we are passing in a useragent too here
