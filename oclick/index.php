@@ -16,8 +16,8 @@ $resp = curl_exec($curl);
 // Close request to clear up some resources
 curl_close($curl);
 */
-$xml = file_get_contents("http://mgine.offerstrack.net/index.php?offer_id=604423&aff_id=593");
-echo $xml
+//$xml = file_get_contents("http://mgine.offerstrack.net/index.php?offer_id=604423&aff_id=593");
+//echo $xml
 echo "123 OK";
 ?>
 
