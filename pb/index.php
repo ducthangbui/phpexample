@@ -1,10 +1,16 @@
 <?php
    error_log(implode("|",$_REQUEST));
+   print_r('1\n');
    print_r($_REQUEST);
+   print_r('2\n');
    print_r($_GET);
+   print_r('3\n');
    print_r($_POST);
+   print_r('4\n');
    print_r(json_encode($_REQUEST));
+   print_r('5\n');
    print_r(json_encode($_GET));
+   print_r('6\n');
    print_r(json_encode($_POST));
 
    $data = json_encode($_REQUEST);
