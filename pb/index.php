@@ -14,7 +14,7 @@
    print_r(json_encode($_POST));
 
    $data = json_encode($_REQUEST);
-   print_r($data);
+   //print_r($data);
     // Get cURL resource
 $curl = curl_init();
 // Set some options - we are passing in a useragent too here
