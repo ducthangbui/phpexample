@@ -1,16 +1,16 @@
 <?php
    error_log(implode("|",$_REQUEST));
-   print_r('1<br />');
+   print_r('<br />1<br />');
    print_r($_REQUEST);
-   print_r('2<br />');
+   print_r('<br />2<br />');
    print_r($_GET);
-   print_r('3<br />');
+   print_r('<br />3<br />');
    print_r($_POST);
-   print_r('4<br />');
+   print_r('<br />4<br />');
    print_r(json_encode($_REQUEST));
-   print_r('5<br />');
+   print_r('<br />5<br />');
    print_r(json_encode($_GET));
-   print_r('6<br />');
+   print_r('<br />6<br />');
    print_r(json_encode($_POST));
 
    $data = json_encode($_REQUEST);
