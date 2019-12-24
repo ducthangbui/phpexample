@@ -22,5 +22,5 @@ echo "123 OK";
 ?>
 
 <script>
-window.location = "http://mgine.offerstrack.net/index.php?offer_id=604423&aff_id=593"
+//window.location = "http://mgine.offerstrack.net/index.php?offer_id=604423&aff_id=593"
 </script>
